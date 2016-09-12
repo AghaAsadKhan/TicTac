@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.aghaasad.tictac.MainActivity"
-    android:background="#fcfe88">
+    android:onClick="dropin"
+    android:background="#fef68c">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -28,7 +29,8 @@
             android:layout_column="0"
 
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="30dp"
+            android:onClick="dropin" />
 
         <ImageView
             android:layout_width="70dp"
@@ -39,7 +41,7 @@
 
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            />
+            android:onClick="dropin"/>
 
         <ImageView
             android:layout_width="70dp"
@@ -50,7 +52,7 @@
 
             android:layout_marginLeft="25dp"
             android:layout_marginTop="30dp"
-            />
+            android:onClick="dropin"/>
 
         <ImageView
             android:layout_width="70dp"
@@ -61,7 +63,7 @@
 
             android:layout_marginLeft="15dp"
             android:layout_marginTop="30dp"
-           />
+            android:onClick="dropin" />
 
         <ImageView
             android:layout_width="70dp"
@@ -71,7 +73,7 @@
             android:layout_column="1"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            />
+            android:onClick="dropin" />
 
         <ImageView
             android:layout_width="70dp"
@@ -93,7 +95,7 @@
 
             android:layout_marginLeft="15dp"
             android:layout_marginTop="40dp"
-           />
+            android:onClick="dropin"/>
 
         <ImageView
             android:layout_width="70dp"
@@ -115,6 +117,6 @@
 
             android:layout_marginLeft="25dp"
             android:layout_marginTop="50dp"
-           />
+            android:onClick="dropin"/>
     </GridLayout>
 </RelativeLayout>
